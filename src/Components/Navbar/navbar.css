@@ -1,0 +1,50 @@
+
+.offcanvas.offcanvas-start.show{
+    display: flex;
+    width: 7%;
+}
+.offcanvas-header{
+    display: flex;
+    width: 100%;
+}
+.offcanvas-body{
+    display: flex;
+    
+}
+
+/* .nav-link{
+    
+    
+} */
+.nav-link:focus{
+    border-left-style: solid;
+    border-left-color:blue ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    border-left-width:5px ;
+    
+}
+
+.nav-link p{
+    font-size: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-link img{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    opacity: 70%;
+    
+}
+/* 
+.offcanvas.offcanvas-start.show{
+    border-color: black;
+    border-style: double;}
+   
+
+.nav-link img{
+    border-color: red;
+    border-style: double;
+}
+     */
